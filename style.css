@@ -12,26 +12,28 @@ body{
 h1{
   font-family: 'Open Sans', sans-serif;
   color: black;
-  font-size: 20px;
+  font-size: 50px;
   line-height : 25px;
 }
 
 h2{
   font-family: 'Open Sans', sans-serif;
   color: black;
-  font-size: 14px;
+  font-size: 20px;
   line-height : 20px;
 }
 
 a{
-  color: black;
+  color: white;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 25px;
   font-weight: 700;
+  background-image: linear-gradient(to bottom, rgb(189, 181, 113, 1), rgb(189, 181, 113, 1));
 }
 
 a:hover{
-  color: #8DBDBE;
+  color: #BDB571;
+  background-color: white;
 }
 .container{
   width: 700px;
@@ -63,7 +65,12 @@ a:hover{
 
 i{
   padding: 10px;
-  font-size: 20px;
+  font-size: 25px;
+}
+
+i:hover{
+  color: #8DBDBE;
+  font-size: 30px;
 }
 
 @media (max-width: 960px) {
